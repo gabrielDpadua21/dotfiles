@@ -1,0 +1,18 @@
+[user]
+	email = gabriel.padua@eduzz.com
+	name = Gabriel D. Padua
+[alias]
+	pll = pull
+	ps = push
+	co = checkout
+	s = !git status -s
+	c = !git add --all && git commit -m
+	l = !git log --pretty=format:'%C(red)%h %C(blue)%d %C(white)%s - %C(cyan)%cn, %C(green)%cr'
+	p = !git push origin
+	branches = branch -a
+	remotes = remote -v
+	
+[core]
+	editor = nvim
+[credential "https://github.com"]
+	helper = !gh auth git-credential
