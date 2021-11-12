@@ -31,3 +31,4 @@ let g:airline_theme='violet'
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-b> :TagbarToggle<CR>
