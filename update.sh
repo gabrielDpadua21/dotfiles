@@ -1,2 +1,0 @@
-./nvim.sh
-./zsh.sh

@@ -24,3 +24,10 @@ if exists("&termguicolors") && exists("&winblend")
   runtime ./colors/githubdark.vim
   colorscheme github_dark
 endif
+
+let g:airline_powerline_fonts = 1
+let g:airline_theme='violet'
+
+nnoremap <C-f> :NERDTreeFocus<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-n> :NERDTree<CR>
