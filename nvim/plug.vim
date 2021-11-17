@@ -15,7 +15,15 @@ Plug 'ap/vim-css-color'
 Plug 'ryanoasis/vim-devicons'
 Plug 'tpope/vim-commentary'
 Plug 'preservim/tagbar'
-Plug 'neoclide/coc.nvim'
+" Plug 'neoclide/coc.nvim'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'sheerun/vim-polyglot'
+"Plug 'roxma/nvim-completion-manager'
+Plug 'w0rp/ale'
+Plug 'jiangmiao/auto-pairs'
+Plug 'mxw/vim-jsx'
+Plug 'tpope/vim-fugitive'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 
 if has("nvim")
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}

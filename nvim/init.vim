@@ -12,6 +12,12 @@ set autoindent
 set shiftwidth=4
 set softtabstop=4
 set mouse=a
+set hidden
+set inccommand=split
+
+let mapleader="\<space>"
+nnoremap <leader>; A;<esc>
+nnoremap <leader>ev :vsplit ~/.config/nvim/init.vim<cr>
 
 if exists("&termguicolors") && exists("&winblend")
   syntax enable
