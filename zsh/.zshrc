@@ -178,10 +178,11 @@ unset __conda_setup
 
 alias utils="cat ~/utils/utils.md"
 
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+#<<<commiter>>>
 alias gs="bash ~/.commiter/gear-second.sh"
 alias gt="bash ~/.commiter/gear-third.sh"
 alias gv="bash ~/.commiter/version.sh"
 alias gh="bash ~/.commiter/help.sh"
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+#<<<commiter>>
