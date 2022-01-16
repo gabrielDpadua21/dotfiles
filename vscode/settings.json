@@ -1,0 +1,63 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "workbench.iconTheme": "eq-material-theme-icons-light",
+    "tabnine.experimentalAutoImports": true,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "oneDarkPro.vivid": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "kite.showWelcomeNotificationOnStartup": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.editor.untitled.hint": "hidden",
+    "eslint.format.enable": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "MesloLGL NerdFont Mono, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontWeight": "bold",
+    "editor.inlayHints.fontFamily": "Fira Mono for Powerline, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "yaml.schemas": {
+        "file:///home/gabrieldpadua/.vscode/extensions/atlassian.atlascode-2.9.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    },
+    "redhat.telemetry.enabled": true,
+    "vscodeGitCommit.template": [
+        "{prefix} ({scope}): {message}"
+    ],
+    "vscodeGitCommit.variables": {
+        "prefix": "aliases...alpha8",
+        "aliases": [
+            {
+                "label": "🐛 Bugfix",
+                "key": "4862938"
+            },
+            {
+                "label": "🌶️ Hotfix",
+                "key": "4862939"
+            }
+        ]
+    },
+    "editor.fontSize": 22,
+    "glassit.alpha": 220,
+    "thunder-client.codeSnippetLanguage": "cs-httpclient",
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "window.zoomLevel": -1,
+    "terminal.integrated.fontFamily": "MesloLGMDZ Nerd Font",
+    "terminal.integrated.fontWeight": "bold",
+    "terminal.integrated.fontSize": 22
+}
