@@ -26,7 +26,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
 if has("nvim")
-  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
   Plug 'kyazdani42/nvim-web-devicons'
 endif
 
